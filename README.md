@@ -19,9 +19,7 @@ Or install it yourself as:
 
 ## Usage
 
-```bash
-  update_markdown_chapter_numbers INPUT_FILENAME OUTPUT_FILENAME
-```
+    $ update_markdown_chapter_numbers INPUT_FILENAME OUTPUT_FILENAME
 
 ## Contributing
 
