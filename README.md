@@ -1,6 +1,7 @@
 # MarkdownChapterNumbers
 
-Adds or updates chapter numbers to markdown file
+Adds or updates chapter numbers to markdown file. 
+Currently only support up to 4 levels of headings.
 
 ## Installation
 
@@ -18,8 +19,8 @@ Or install it yourself as:
 
 ## Usage
 
-```
-  rake update INPUT_FILENAME OUTPUT_FILENAME
+```bash
+  bin/update_markdown_chapter_numbers INPUT_FILENAME OUTPUT_FILENAME
 ```
 
 
