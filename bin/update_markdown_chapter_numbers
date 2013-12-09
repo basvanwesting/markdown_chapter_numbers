@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+if ARGV.size != 2
+  puts "Usage: update_markdown_chapter_numbers INPUT_FILENAME OUTPUT_FILENAME"
+  exit
+else
+  require File.expand_path(File.join(File.dirname(__FILE__), '..', 'lib', 'markdown_chapter_numbers'))
+  MarkdownChapterNumbers.update(*ARGV)
+end
